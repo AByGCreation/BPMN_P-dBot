@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="La Poste" description="La Poste est une societe francaise de transport de courrier.">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="davidrambeau">
+      <firstName>David</firstName>
+      <lastName>RAMBEAU</lastName>
+      <manager>davyriss</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="davyriss">
+      <firstName>Davy</firstName>
+      <lastName>RISS</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="annesarazin">
+      <firstName>Anne</firstName>
+      <lastName>SARAZIN</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="RIO">
+      <displayName>RIO</displayName>
+    </role>
+    <role name="ROET">
+      <displayName>ROET</displayName>
+    </role>
+    <role name="Organisateur">
+      <displayName>OA</displayName>
+    </role>
+    <role name="Tech Data">
+      <displayName>Tech Data</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="DMDL">
+      <displayName>DMDL</displayName>
+    </group>
+    <group name="DQSC">
+      <displayName>DQSC</displayName>
+    </group>
+    <group name="Organisation" parentPath="/DMDL">
+      <displayName>Organisation</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>davidrambeau</userName>
+      <roleName>Organisateur</roleName>
+      <groupName>Organisation</groupName>
+      <groupParentPath>/DMDL</groupParentPath>
+    </membership>
+    <membership>
+      <userName>davyriss</userName>
+      <roleName>RIO</roleName>
+      <groupName>Organisation</groupName>
+      <groupParentPath>/DMDL</groupParentPath>
+    </membership>
+    <membership>
+      <userName>annesarazin</userName>
+      <roleName>RIO</roleName>
+      <groupName>DQSC</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
