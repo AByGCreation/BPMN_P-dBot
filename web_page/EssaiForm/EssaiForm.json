@@ -1,0 +1,31 @@
+{
+  "modelVersion" : "2.3",
+  "id" : "EssaiForm",
+  "name" : "EssaiForm",
+  "lastUpdate" : 1680866717957,
+  "rows" : [
+    [ ]
+  ],
+  "assets" : [
+    {
+      "id" : "e71cc981-2612-4622-90d3-1c262f3c8342",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "8d847f68-e808-4c23-b722-74e9fd763990",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "5627e231-88a7-4673-b9e1-372b6643baf7",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

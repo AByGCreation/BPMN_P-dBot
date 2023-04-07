@@ -531,7 +531,7 @@
         <children xmi:type="notation:Node" xmi:id="_RawKQOThEey5oq_djh2NIg" type="3007" element="_Rau8IOThEey5oq_djh2NIg">
           <children xmi:type="notation:DecorationNode" xmi:id="_RawKReThEey5oq_djh2NIg" type="5007"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_RawKRuThEey5oq_djh2NIg" type="7002">
-            <children xmi:type="notation:Shape" xmi:id="_97vXYuThEey5oq_djh2NIg" type="3006" element="_97uwUOThEey5oq_djh2NIg" fontName="Avenir Next" fontHeight="18" bold="true" fillColor="262362" lineColor="1117923">
+            <children xmi:type="notation:Shape" xmi:id="_97vXYuThEey5oq_djh2NIg" type="3006" element="_97uwUOThEey5oq_djh2NIg" fontName="Montserrat" fontHeight="18" bold="true" fillColor="262362" lineColor="1117923">
               <children xmi:type="notation:DecorationNode" xmi:id="_97vXZOThEey5oq_djh2NIg" type="5006"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_97vXY-ThEey5oq_djh2NIg" x="120" y="74" width="192" height="95"/>
             </children>
@@ -560,7 +560,7 @@
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_WikOWOTgEeyJwOUMvhWSHA"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_WikOWeTgEeyJwOUMvhWSHA" fontName="Avenir Next" fontHeight="48" bold="true"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_WikOWeTgEeyJwOUMvhWSHA" fontName="Montserrat" fontHeight="48" bold="true"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_WikOWuTgEeyJwOUMvhWSHA"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_WikOW-TgEeyJwOUMvhWSHA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WikOXOTgEeyJwOUMvhWSHA" width="2028" height="250"/>
