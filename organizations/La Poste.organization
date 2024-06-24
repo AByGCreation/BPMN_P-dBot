@@ -5,7 +5,7 @@
     <user userName="davidrambeau">
       <firstName>David</firstName>
       <lastName>RAMBEAU</lastName>
-      <manager>vincenthouot</manager>
+      <manager>davyriss</manager>
       <personalData/>
       <professionalData/>
       <password encrypted="false">bpm</password>
@@ -28,15 +28,6 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="vincenthouot">
-      <firstName>Vincent</firstName>
-      <lastName>HOUOT</lastName>
-      <manager>User1</manager>
-      <personalData/>
-      <professionalData/>
-      <password encrypted="false">bpm</password>
-      <customUserInfoValues/>
-    </user>
   </users>
   <roles>
     <role name="RIO">
@@ -51,18 +42,6 @@
     <role name="Tech Data">
       <displayName>Tech Data</displayName>
     </role>
-    <role name="customerSend">
-      <displayName>Client (Expediteur)</displayName>
-    </role>
-    <role name="customerReceiver">
-      <displayName>Client (Destinataire)</displayName>
-    </role>
-    <role name="Syndicats">
-      <displayName>Syndicats</displayName>
-    </role>
-    <role name="CDP">
-      <displayName>CDP</displayName>
-    </role>
   </roles>
   <groups>
     <group name="DMDL">
@@ -73,9 +52,6 @@
     </group>
     <group name="Organisation" parentPath="/DMDL">
       <displayName>Organisation</displayName>
-    </group>
-    <group name="DDIOOP">
-      <displayName>D2i2oP</displayName>
     </group>
   </groups>
   <memberships>
@@ -95,11 +71,6 @@
       <userName>annesarazin</userName>
       <roleName>RIO</roleName>
       <groupName>DQSC</groupName>
-    </membership>
-    <membership>
-      <userName>vincenthouot</userName>
-      <roleName>CDP</roleName>
-      <groupName>DDIOOP</groupName>
     </membership>
   </memberships>
 </organization:Organization>
